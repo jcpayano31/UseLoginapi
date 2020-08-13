@@ -1,0 +1,166 @@
+{
+	"info": {
+		"_postman_id": "24e119e7-3e4b-460d-88c0-f9040ad0fd03",
+		"name": "UserLoginService",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Get All ",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \r\n    \"UserEmail\" : \"dayanajcabral@gmail.com\",\r\n    \"UserPassword\" :  \"password1\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:57655/api/UserLogin/",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "57655",
+					"path": [
+						"api",
+						"UserLogin",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get with ID",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \r\n    \"UserEmail\" : \"dayanajcabral@gmail.com\",\r\n    \"UserPassword\" :  \"password1\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:57655/api/UserLogin/102",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "57655",
+					"path": [
+						"api",
+						"UserLogin",
+						"102"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Delete with ID ",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \r\n    \"UserEmail\" : \"dayanajcabral@gmail.com\",\r\n    \"UserPassword\" :  \"password1\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:57655/api/UserLogin/102",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "57655",
+					"path": [
+						"api",
+						"UserLogin",
+						"102"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Post or add record",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \r\n    \"UserEmail\" : \"nayapayano@gmail.com\",\r\n    \"UserPassword\" :  \"password3\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:57655/api/UserLogin/",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "57655",
+					"path": [
+						"api",
+						"UserLogin",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Put or Update with ID",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \r\n    \"UserEmail\" : \"nayapayano@gmail.com\",\r\n    \"UserPassword\" :  \"password4\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:57655/api/UserLogin/103",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "57655",
+					"path": [
+						"api",
+						"UserLogin",
+						"103"
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"protocolProfileBehavior": {}
+}
